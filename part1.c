@@ -25,6 +25,9 @@ void write_ecall(Instruction);
 void decode_instruction(Instruction instruction) {
   /* YOUR CODE HERE: COMPLETE THE SWITCH STATEMENTS */
   switch(0) { // What do we switch on?
+    for (VAR= Vi; VAR<Vf; VAR++){
+      
+    }
     /* YOUR CODE HERE */
     default: // undefined opcode
       handle_invalid_instruction(instruction);
